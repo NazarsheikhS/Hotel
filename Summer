@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="eng">
+</html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WELCOME to Travel trip form</title>
+<link rel="stylesheet" href="style.css">
+ 
+
+<!-- Apply styles to html elements -->
+<style>
+*{
+margin:0; padding:0; boxsizing:border-box;
+}
+header{
+width: 100%; height: 100vh;
+background-image: url('https://thumbs.dreamstime.com/z/common-office-building-interior-generic-34278981.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+nav{
+width: 100%; height: 15vh;
+background: orange;
+display: flex; justify-content: space-between;
+align-items: center;
+}
+nav .mainmenu{
+width: 40%;
+display: flex; justify-content: space-around;
+}
+main{
+width: 100%; height: 85vh;
+display: flex; justify-content: center;
+align-items: center;
+text-align: center;
+}
+section h3{
+letter-spacing: 3px; font-weight: 200;
+}
+section h1{
+text-transform: uppercase;
+}
+section div{
+animation:changeborder 10s infinite linear;
+border: 4px solid red;
+}
+@keyframes changeborder{
+0%
+25%
+50%
+}
+</style>
+</head>
+<body>
+<!--Let us create a simple menu using the navigation tags-->
+<!--Use header to indicate that manu will be a part of header -->
+<header>
+<nav>
+<div class = "logo"><h3 style="color:navy;">MY LOGO</h3></div>
+<!--Lets define the menu items now-->
+<div class = "row">
+<a href="file:///D:/Home.html"> Home</a><br>
+<a href="https://www.expedia.co.in/Destinations-In-California.d206.Hotel-Destinations">Service</a><br>
+<a href="https://experiencemarriott.com/california">POPULER PLACES</a><br>
+
+</div>
+<script src="index."></script>
+<!---->
+<body>
+</div>
+</body>
+</nav>
+<!--Let us create the main section now, if you are not using html5, use div tags-->
+<main>
+<section>
+<!--Check out the styling elements for this div class - change_text -->
+<div class = "change_text"><h1 style="color: green;">WELCOME TO MY WEB-SITE </h1></div>
+<!--make text italic-->
+<p><i>All your Hotel Turist needs in one place</i></p><br>
+<br>
+
+
+</section>
+</main>
+</header>
+</body>
+</html>
